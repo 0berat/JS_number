@@ -1,0 +1,30 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<script>
+    var x= 9.656;
+
+    var str =x.toString();
+    // alert (str);
+ var exp = x.toExponential(); //parametre girersek yuvarlar (1) bu sayı büyüdükçe ondalık kısım ı yazdırmaya başlıyor.
+
+    // alert(exp);
+
+    var fixed =x.toFixed(1);// parametre girilmemişken tamamen yuvarlar. Parametre girilirse eğer :girilen değer kadar basamak yuvarlanır.
+
+    // alert(fixed);
+    var prec =x.toPrecision(2);//String olarak çıkartıyor.
+
+     alert(typeof prec);
+
+    var valueOf =x.valueOf();
+    // alert(typeof valueOf);  // int olarak değer verir.
+
+
+</script>
+</body>
+
+</html>
